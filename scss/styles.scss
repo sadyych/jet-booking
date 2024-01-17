@@ -22,7 +22,7 @@ h2 {
   font-weight: 700;
   line-height: normal;
   text-transform: capitalize;
-  background-image: url("./img/backgrounds/ellipse.svg");
+  background-image: url("../img/backgrounds/ellipse.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -40,19 +40,19 @@ h2 {
 .main-page {
   max-width: 100vw;
   height: 100vh;
-  background-image: url("./img/backgrounds/main-page-bg.jpg");
+  background-image: url("../img/backgrounds/main-page-bg.jpg");
   background-size: cover;
   background-position: center, top;
 }
 @media screen and (max-width: 1023px) {
   .main-page {
-    background-image: url("./img/backgrounds/main-page-bg-1023.png");
+    background-image: url("../img/backgrounds/main-page-bg-1023.png");
     background-position: right, top;
   }
 }
 @media screen and (max-width: 500px) {
   .main-page {
-    background-image: url("./img/backgrounds/main-page-bg-500.png");
+    background-image: url("../img/backgrounds/main-page-bg-500.png");
     background-position: left, top;
   }
 }
@@ -305,7 +305,7 @@ h2 {
   position: relative;
   z-index: 0;
   &::after {
-    content: url("/img/arrow-right 1.svg");
+    content: url("../img/interface/arrow-right.svg");
     position: absolute;
     top: 2px;
     left: 100px;
@@ -320,8 +320,8 @@ h2 {
 .private-jet {
   padding-top: 115px;
   padding-bottom: 66px;
-  background-image: url("./img/backgrounds/rectangle-left.png"),
-    url("./img/backgrounds/rectangle-right.png");
+  background-image: url("../img/backgrounds/rectangle-left.png"),
+    url("../img/backgrounds/rectangle-right.png");
   background-repeat: no-repeat, no-repeat;
   background-position: left 29%, right 100%;
 }
@@ -417,7 +417,7 @@ h4 {
   margin-bottom: 68px;
 }
 .specification-list {
-  background-image: url("./img/backgrounds/plane-top-view.png");
+  background-image: url("../img/backgrounds/plane-top-view.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 300 330;
@@ -479,7 +479,7 @@ h4 {
 .luxury-charters {
   padding-top: 115px;
   padding-bottom: 59px;
-  background-image: url("./img/backgrounds/plane-large.png");
+  background-image: url("../img/backgrounds/plane-large.png");
   background-repeat: no-repeat;
   background-position: right 208px;
 }
@@ -576,7 +576,7 @@ h4 {
 .membership {
   padding-top: 56px;
   padding-bottom: 185px;
-  background-image: url("/img/backgrounds/plane-large.png");
+  background-image: url("../img/backgrounds/plane-large.png");
   background-repeat: no-repeat;
   background-position: 65% 101.5%;
 }
@@ -640,14 +640,14 @@ h4 {
   position: relative;
   padding-left: 32px;
   &::before {
-    content: url(/img/bxs-check-circle.svg);
+    content: url("../img/interface/check.svg");
     position: absolute;
     top: 0;
     left: 0;
   }
 }
 .cross::before {
-  content: url(/img/cross.svg);
+  content: url("../img/interface/cross.svg");
   position: absolute;
   top: 2px;
   left: 2px;
