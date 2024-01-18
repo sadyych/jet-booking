@@ -11,7 +11,7 @@ img {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins;
   overflow-x: hidden;
 }
 
@@ -719,7 +719,6 @@ h4 {
   justify-content: space-between;
   border-top: 1px solid #b7b7b7;
   line-height: normal;
-  color: rgba(255, 255, 255, 0.7);
   padding-bottom: 7px;
   padding-top: 17px;
 }
@@ -734,11 +733,15 @@ h4 {
   text-transform: uppercase;
   text-align: center;
 }
+.footer-nav__item a {
+  color: rgba(255, 255, 255, 0.7);
+}
 .footer__credits {
   text-align: center;
   font-size: 14px;
   font-weight: 400;
   text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.7);
 }
 @media screen and (max-width: 767px) {
   .footer-nav {
