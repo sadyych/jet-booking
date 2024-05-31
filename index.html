@@ -4,7 +4,10 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
    <link rel="stylesheet" href="./css/styles.css">
+
+   <!-- SWIPER JS -->
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
    <title>Jet Booking Service</title>
@@ -12,56 +15,58 @@
    <style>
       @import url(./css/reset.css);
    </style>
+
+   <!-- FAVICON -->
+   <link rel="icon" type="image/x-icon" href="/img/svgs/favicon.svg">
    <!-- FONTS -->
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Roboto:wght@400;500;700&display=swap"
-      rel="stylesheet">
+      2 rel="stylesheet">
 </head>
 
 <body>
    <main>
-      <section class="main-page" id="HomeSect">
-         <header class="header">
-            <div class="container">
-               <div class="header__body">
-                  <div class="header__logo">
-                     <img src="./img/logos/logo-purple.png" alt="">
+      <header class="header">
+         <div class="header__container">
+            <div class="header__logo">
+               <img src="./img/logos/logo-purple.png" alt="">
 
-                  </div>
-                  <div class="header__logo-white">
-                     <img src="./img/logos/logo-white.png" alt="">
-                  </div>
-                  <nav class="header__menu">
-                     <ul class="header__list">
-                        <li>
-                           <a class="header__link" href="#HomeSect">Home</a>
-                        </li>
-                        <li>
-                           <a class="header__link" href="#PrivateJetSect">Private Jet</a>
-                        </li>
-                        <li>
-                           <a class="header__link" href="#SpecificationSect">Specification</a>
-                        </li>
-                        <li>
-                           <a class="header__link" href="#LuxuryChartersSect">Luxury Charters</a>
-                        </li>
-                        <li>
-                           <a class="header__link" href="#MembershipSect">Membership</a>
-                        </li>
-                     </ul>
-                  </nav>
-                  <div class="header__btns">
-                     <button class="header__reg">Register</button>
-                     <button class="header__sign">Sign In</button>
-                  </div>
-                  <div class="header__burger">
-                     <span></span>
-                  </div>
-               </div>
             </div>
-         </header>
+            <div class="header__logo-white">
+               <img src="./img/logos/logo-white.png" alt="">
+            </div>
+            <nav class="header__menu">
+               <ul class="header__list">
+                  <li>
+                     <a class="header__link" href="#HomeSect">Home</a>
+                  </li>
+                  <li>
+                     <a class="header__link" href="#PrivateJetSect">Private Jet</a>
+                  </li>
+                  <li>
+                     <a class="header__link" href="#SpecificationSect">Specification</a>
+                  </li>
+                  <li>
+                     <a class="header__link" href="#LuxuryChartersSect">Luxury Charters</a>
+                  </li>
+                  <li>
+                     <a class="header__link" href="#MembershipSect">Membership</a>
+                  </li>
+               </ul>
+            </nav>
+            <div class="header__btns">
+               <button class="header__reg">Register</button>
+               <button class="header__sign">Sign In</button>
+            </div>
+            <div class="header__burger">
+               <span></span>
+            </div>
+         </div>
+      </header>
+      <section class="main-page" id="HomeSect">
+
          <div class="container">
             <div class="home__content">
 
@@ -299,21 +304,21 @@
                <div class="footer__logo">
                   <img src="./img/logos/logo-white.png" alt="">
                </div>
-
-               <nav class="footer-nav">
-                  <ul class="footer-nav__list">
-                     <li class="footer-nav__item"><a href="#">Services</a></li>
-                     <li class="footer-nav__item"><a href="#">About Us</a></li>
-                     <li class="footer-nav__item"><a href="#">News</a></li>
-                     <li class="footer-nav__item"><a href="#">Contact</a></li>
-                  </ul>
+               <div class="footer__text">
+                  <nav class="footer-nav">
+                     <ul class="footer-nav__list">
+                        <li class="footer-nav__item"><a href="#">Services</a></li>
+                        <li class="footer-nav__item"><a href="#">About Us</a></li>
+                        <li class="footer-nav__item"><a href="#">News</a></li>
+                        <li class="footer-nav__item"><a href="#">Contact</a></li>
+                     </ul>
+                  </nav>
                   <p class="footer__credits">© 2024 Air. All rights reserved.</p>
-               </nav>
+               </div>
             </div>
          </div>
       </footer>
    </main>
-
 </body>
 <script src="./js/script.js"></script>
 
