@@ -13,6 +13,7 @@ var specification = document.querySelector(".specification");
 var lux_charters = document.querySelector(".luxury-charters");
 var membership = document.querySelector(".membership");
 var footer = document.querySelector(".footer");
+var header = document.querySelector(".header");
 
 burger.addEventListener("click", () => {
   burger.classList.toggle("active");
@@ -50,7 +51,10 @@ link.forEach(function (link) {
     header_buttons.classList.remove("active");
   });
 });
-
+// ---------------------Header color-------------//
+// window.addEventListener("scroll", () => {
+//   header.classList.toggle("active");
+// });
 //-------------------Planes-Swiper--------------------------
 const planesSwiper = new Swiper(".planes-slider", {
   centeredSlides: true,
